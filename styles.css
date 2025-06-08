@@ -31,17 +31,22 @@ li{
     padding: 5px;
     background-color: rgb(50, 50, 50);
 }
- .hireme-button {
+.hireme-button {
   background-color: #ff9800;
   color: #000;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 1rem;
   font-weight: bold;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
+
 .hireme-button:hover {
   background-color: #ffa726;
+  transform: scale(1.05);
 }
  section {
       padding: 40px 20px;
